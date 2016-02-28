@@ -1,0 +1,6 @@
+<h1>the next techcrunch</h1>
+
+<% @articles.each do |article| %>
+    <h3 style="font-family: sans-serif"><%= article.article_title %></h3> 
+    <p style="font-family: sans-serif"><%= article.article_body %> </p>
+<% end %>  
